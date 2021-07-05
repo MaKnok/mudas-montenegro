@@ -1,0 +1,529 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+/*---Media Queries --*/
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: inherit;
+}
+
+.contact-title {
+  font-weight: 600;
+  font-size: 12pt;
+}
+
+.contact-text {
+  margin-top: 0.5rem;
+  margin-left: 2.5rem;
+  font-size: 1.25rem;
+}
+
+.page-title {
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.plain-text {
+  margin-top: 0.5rem;
+  margin-left: 2.5rem;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+hr.divisor-line {
+  border: 0.1px solid #212529;
+  opacity: 1;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .lead {
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+  }
+
+  .leaves-home {
+    width: 250px;
+    margin-bottom: 20px;
+  }
+
+  .leaves-sections {
+    width: 250px;
+    margin-left: 2.5rem;
+  }
+
+  .leaves-sections-longer {
+    width: 350px;
+  }
+
+  .leaves-sections-longer-first {
+    width: 350px;
+  }
+
+  .logo {
+    width: 220px;
+  }
+
+  .page-slogan {
+    padding-left: 2.5rem;
+  }
+
+  .phrase-home {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  .carousel-caption {
+    width: 28rem;
+    z-index: 10;
+    color: #fff;
+    text-align: left;
+    top: 40%;
+    left: 10%;
+    bottom: auto;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+  }
+
+  .social-icons {
+    text-align: left;
+  }
+
+  .section-line {
+    margin: 0rem 0rem 0rem 2.2rem;
+    padding-top: 3rem;
+  }
+
+  .section-line-2 {
+    margin: 0rem 0rem 0rem 0.1rem;
+    padding-top: 3rem;
+  }
+
+  hr.divisor-line-top {
+    border: 3px solid #212529;
+    width: 20%;
+    opacity: 1;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .lead {
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+  }
+
+  .leaves-home {
+    width: 190px;
+    margin-bottom: 15px;
+  }
+
+  .leaves-sections {
+    width: 190px;
+    margin-left: 2.5rem;
+  }
+
+  .leaves-sections-longer {
+    width: 300px;
+  }
+
+  .leaves-sections-longer-first {
+    width: 300px;
+  }
+
+  .logo {
+    width: 200px;
+  }
+
+  .phrase-home {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .page-slogan {
+    padding-left: 2.5rem;
+  }
+
+  .carousel-caption {
+    width: 20rem;
+    z-index: 10;
+    color: #fff;
+    text-align: left;
+    top: 35%;
+    left: 10%;
+    bottom: auto;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+  }
+
+  .social-icons {
+    text-align: left;
+  }
+
+  .section-line {
+    margin: 0rem 0rem 0rem 2.2rem;
+    padding-top: 3rem;
+  }
+
+  hr.divisor-line-top {
+    border: 3px solid #212529;
+    width: 50%;
+    opacity: 1;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .carousel-caption {
+    width: 15rem;
+    z-index: 10;
+    color: #fff;
+    text-align: left;
+    top: 35%;
+    left: 10%;
+    bottom: auto;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+  }
+
+  .lead {
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+  }
+
+  .leaves-home {
+    width: 190px;
+    margin-bottom: 20px;
+  }
+
+  .leaves-sections {
+    width: 190px;
+    margin-left: 2.5rem;
+  }
+
+  .leaves-sections-longer {
+    width: 250px;
+  }
+
+  .leaves-sections-longer-first {
+    width: 250px;
+  }
+
+  .logo {
+    width: 200px;
+  }
+
+  .section-top {
+    display: flex;
+  }
+
+  .section-top > .content-2 {
+    order: -1;
+  }
+
+  .page-slogan {
+    padding-left: 2.5rem;
+  }
+
+  .phrase-home {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .section-line {
+    margin: 0rem 0rem 0rem 2.2rem;
+    padding-top: 3rem;
+  }
+
+  hr.divisor-line-top {
+    border: 3px solid #212529;
+    width: 50%;
+    opacity: 1;
+  }
+
+  .section-top > .image-top {
+    order: -1;
+  }
+
+  .social-icons {
+    text-align: left;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .carousel-caption {
+    width: 10rem;
+    z-index: 10;
+    color: #fff;
+    text-align: left;
+    top: 50%;
+    left: 8%;
+    bottom: auto;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+  }
+
+  .img-content {
+    width: 270px;
+  }
+
+  .lead {
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 0rem;
+  }
+
+  .leaves-home {
+    width: 130px;
+    margin-bottom: 10px;
+  }
+
+  .leaves-sections {
+    width: 130px;
+    margin-left: 0rem;
+  }
+
+  .leaves-sections-longer {
+    width: 200px;
+  }
+
+  .leaves-sections-longer-first {
+    width: 200px;
+  }
+
+  .line {
+    text-align: center;
+  }
+
+  .logo {
+    width: 180px;
+  }
+
+  .phrase-home {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .page-slogan {
+    text-align: center;
+    padding-left: 0rem;
+  }
+
+  .page-title {
+    text-align: center;
+    margin-left: 0rem;
+  }
+
+  .section-top {
+    text-align: center;
+  }
+
+  .content-1 {
+    text-align: center;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .social-icons {
+    text-align: center;
+  }
+
+  .section-line {
+    margin: 0rem 6rem;
+    padding-top: 3rem;
+  }
+
+  hr.divisor-line-top {
+    border: 3px solid #212529;
+    width: 100%;
+    opacity: 1;
+  }
+}
+
+.navbar {
+  background-color: #f6efef;
+  padding: 0.5rem 2rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #492b28;
+}
+
+.navbar-light .navbar-nav > li > a:hover,
+.navbar-light .navbar-nav > li > a:focus {
+  font-weight: 600;
+}
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+  background-color: #000;
+}
+
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0 !important;
+}
+
+footer {
+  background-color: #fff;
+  color: #492b28;
+  line-height: 22px;
+  padding: 2rem;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+ul {
+  padding-inline-start: 0;
+  margin-bottom: 0.5rem;
+}
+
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#fixed {
+  background-image: url("img/mac.png");
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+  padding: 1rem;
+}
+
+.carousel-caption {
+  text-align: left;
+}
+
+.contact-icon {
+  margin-bottom: 0.5rem;
+}
+
+.page-title::before {
+  content: "";
+  display: inline-block;
+  background-image: url(img/icons/leaves.svg);
+  background-size: 33px 40px;
+  width: 33px;
+  height: 40px;
+  margin-right: 8px;
+}
+
+/*.page-slogan {
+  padding-left: 2.5rem;
+}*/
+
+.phrase-home {
+  font-family: "Fira Sans", sans-serif;
+}
+
+.phrase-bold {
+  font-weight: 600;
+}
+
+.phrase-bold-bigger {
+  font-weight: 600;
+  font-size: 20pt;
+}
+
+.picture-home {
+  opacity: 0.7;
+}
+
+.section-top {
+  padding: 1rem 2rem;
+  background-color: #fff;
+}
+
+.social-icon:not(:first-child) {
+  margin-left: 20px;
+}
+
+.social-icon:first-child {
+  margin-right: 5px;
+}
+
+.social-icon {
+  display: inline-block;
+}
+
+.social-icon > a > img,
+.contact-icon {
+  height: 25px;
+}
+
+.contact-icon-zap {
+  height: 30px;
+}
+
+.terms-conditions {
+  font-size: 0.875rem;
+  color: #492b28;
+}
+
+.terms-conditions > a {
+  text-decoration: none;
+  font-size: 0.875rem;
+  color: #492b28;
+}
+
+.wrapper {
+  padding: 0 2em;
+}
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
